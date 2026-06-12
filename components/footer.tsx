@@ -46,7 +46,7 @@ export function Footer() {
 
           {/* Links */}
           <div>
-            <h3 className="font-semibold mb-4">Enlaces R\u00e1pidos</h3>
+            <h3 className="font-semibold mb-4">Enlaces Rápidos</h3>
             <ul className="space-y-2">
               <li>
                 <Link href="/products" className="text-muted-foreground hover:text-primary transition-colors text-sm">
@@ -55,7 +55,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/products?category=electronics" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                  Electr\u00f3nica
+                  Electrónica
                 </Link>
               </li>
               <li>
@@ -87,17 +87,17 @@ export function Footer() {
               </li>
               <li>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                  Pol\u00edtica de Devoluciones
+                  Política de Devoluciones
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                  T\u00e9rminos y Condiciones
+                  Términos y Condiciones
                 </Link>
               </li>
               <li>
                 <Link href="#" className="text-muted-foreground hover:text-primary transition-colors text-sm">
-                  Pol\u00edtica de Privacidad
+                  Política de Privacidad
                 </Link>
               </li>
               <li>
@@ -114,7 +114,7 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 text-primary" />
-                <span>Ciudad de M\u00e9xico, CDMX</span>
+                <span>Ciudad de México, CDMX</span>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary" />
@@ -126,7 +126,7 @@ export function Footer() {
               </div>
             </div>
             <div className="pt-4">
-              <p className="text-sm font-medium mb-2">Suscr\u00edbete al Newsletter</p>
+              <p className="text-sm font-medium mb-2">Suscríbete al Newsletter</p>
               <div className="flex gap-2">
                 <Input
                   type="email"

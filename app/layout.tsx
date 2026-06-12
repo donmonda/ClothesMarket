@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: 'NexusStore - Tu Tienda Online Premium',
-  description: 'Descubre los mejores productos con la mejor calidad y precios competitivos. Electr\u00f3nica, moda, hogar y m\u00e1s.',
+  description: 'Descubre los mejores productos con la mejor calidad y precios competitivos. Electrónica, moda, hogar y más.',
   generator: 'v0.app',
-  keywords: ['ecommerce', 'tienda online', 'electr\u00f3nica', 'moda', 'hogar', 'deportes'],
+  keywords: ['ecommerce', 'tienda online', 'electrónica', 'moda', 'hogar', 'deportes'],
   authors: [{ name: 'NexusStore' }],
   icons: {
     icon: [

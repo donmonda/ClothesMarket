@@ -101,7 +101,7 @@ export function Navbar() {
                 </Link>
                 <div className="py-2">
                   <p className="text-sm font-semibold text-muted-foreground mb-2">
-                    Categor\u00edas
+                    Categorías
                   </p>
                   <div className="flex flex-col gap-2">
                     {categories.map((category) => (
@@ -137,7 +137,7 @@ export function Navbar() {
             </Link>
             <DropdownMenu>
               <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium hover:text-primary transition-colors">
-                Categor\u00edas <ChevronDown className="h-4 w-4" />
+                Categorías <ChevronDown className="h-4 w-4" />
               </DropdownMenuTrigger>
               <DropdownMenuContent align="start" className="w-48">
                 {categories.map((category) => (
@@ -259,14 +259,14 @@ export function Navbar() {
                     onClick={() => setUser(null)}
                   >
                     <LogOut className="mr-2 h-4 w-4" />
-                    Cerrar Sesi\u00f3n
+                    Cerrar Sesión
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
             ) : (
               <Link href="/login">
                 <Button variant="default" size="sm" className="hidden sm:flex">
-                  Iniciar Sesi\u00f3n
+                  Iniciar Sesión
                 </Button>
                 <Button variant="ghost" size="icon" className="sm:hidden">
                   <User className="h-5 w-5" />
