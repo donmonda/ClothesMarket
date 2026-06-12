@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, Suspense } from 'react'
 import { useSearchParams } from 'next/navigation'
 import { Search, SlidersHorizontal, X, Grid3X3, List } from 'lucide-react'
 import { Button } from '@/components/ui/button'
@@ -30,7 +30,7 @@ import { useStore } from '@/lib/store'
 
 type SortOption = 'relevance' | 'price-asc' | 'price-desc' | 'rating' | 'newest'
 
-export default function ProductsPage() {
+function ProductsContent() {
   const searchParams = useSearchParams()
   const categoryParam = searchParams.get('category')
   const { searchQuery, setSearchQuery } = useStore()
@@ -398,5 +398,13 @@ export default function ProductsPage() {
         </div>
       </div>
     </div>
+  )
+}
+
+export default function ProductsPage() {
+  return (
+    <Suspense fallback={null}>
+      <ProductsContent />
+    </Suspense>
   )
 }
